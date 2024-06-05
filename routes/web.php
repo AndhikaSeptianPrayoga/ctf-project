@@ -33,3 +33,6 @@ Route::get('/scoreboard', function () {
     return view('board-user');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
